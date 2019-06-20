@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    min-width: 810px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header ul {
+    padding: 0;
+    /* dunno why it cannot inherit from .header */
+}
+
+.header #logo {
+    padding: 0px 300px 0px 100px;
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
+}
+
+.header .navigation li {
+    display: inline-block;
+    padding: 0 10px 10px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header .navigation li a {
+    color: rgb(0, 170, 170);
+    text-transform: uppercase;
+}
+
+.body {
+    background-image: url("assets/bg-playstation-pattern.png");
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.body #position_name {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 170, 170);
+}
+
+.body .my_name {
+    padding: 60px 0 20px 0;
+}
+
+p, dt, dd {
+    margin: 0;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    padding: 20px 0;
+}
+
+h3{
+    padding: 5px 0;
+}
+
+.hyphens {
+    padding: 20px 0;
+}
+
+.wiki_header {
+    text-align: center;
+}
+
+.wiki_body dd {
+    font-size: 14px;
+}
+
+.width670 {
+    max-width: 670px;
+}
